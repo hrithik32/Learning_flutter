@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
             "Welcome Users",
             style: TextStyle(
               fontSize: 20,
-              color: Colors.blueAccent,
+              color: const Color.fromARGB(255, 90, 82, 213),
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
           ),
           ElevatedButton(
             style: TextButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 114, 148, 207)),
+                backgroundColor: const Color.fromARGB(255, 90, 82, 213)),
             onPressed: () {
               print("Congratulations");
             },
